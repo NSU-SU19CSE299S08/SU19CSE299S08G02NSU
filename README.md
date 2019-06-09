@@ -1,7 +1,7 @@
 # CSE299-Automate-Login-and-Password-Manager-
-Name: Syed Mustavi Maheen
-Email: mustavi.maheen@northsouth.edu
-Course: CSE299
-Section: 8
-ID# 1611207042
-Semester: Summer,19 
+\nName: Syed Mustavi Maheen
+\nEmail: mustavi.maheen@northsouth.edu
+\nCourse: CSE299
+\nSection: 8
+\nID# 1611207042
+\nSemester: Summer,19 
