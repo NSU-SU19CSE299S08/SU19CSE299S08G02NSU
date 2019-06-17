@@ -1,4 +1,4 @@
-# CSE299-Automate-Login-and-Password-Manager-
+# CSE299-Serena, a Virtual Assistant 
 Name: Syed Mustavi Maheen  
 Email: mustavi.maheen@northsouth.edu  
 Course: CSE299  
