@@ -1,0 +1,3 @@
+Hello, my name is Serena.
+I am a virtual assistant for windows.
+Please response with your command.
