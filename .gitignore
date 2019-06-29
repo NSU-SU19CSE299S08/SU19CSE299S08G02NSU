@@ -2,4 +2,5 @@
 
 *.pyc
 
-Project Code/venv/Lib/site-packages/
+Project Code/venv/
+Project Code/.idea/
