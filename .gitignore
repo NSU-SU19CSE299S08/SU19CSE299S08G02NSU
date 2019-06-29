@@ -1,2 +1,5 @@
 .idea
 
+*.pyc
+
+Project Code/venv/Lib/site-packages/
