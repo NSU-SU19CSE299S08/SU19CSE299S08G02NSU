@@ -46,6 +46,17 @@ def log_to_slack():
     remember_me.click()
     log_in_element = driver.find_element_by_xpath('//*[@id="signin_btn"]')
     log_in_element.click()
+    my_channel = driver.find_element_by_xpath(
+        '/html/body/div[4]/div[4]/div[1]/div[3]/div[3]/nav/div/div[1]/div/div[1]/div/div/div[8]/a/span')
+    my_channel.click()
+    writing_in_slack()
+
+
+def writing_in_slack():
+    comment = driver.find_element_by_xpath(
+        '/html/body/div[4]/div[4]/div[2]/div/div[1]/div[3]/div[1]/form/div/div[1]/div[1]')
+    comment.send_keys('This comment is written automatically.')
+    comment.send_keys(Keys.ENTER)
 
 
 log_to_github()
