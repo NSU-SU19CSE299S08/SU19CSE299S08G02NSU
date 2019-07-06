@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
+import time
 
 driver = webdriver.Firefox(executable_path='C:\geckodriver.exe')
 
@@ -46,7 +47,13 @@ def log_to_slack():
     remember_me.click()
     log_in_element = driver.find_element_by_xpath('//*[@id="signin_btn"]')
     log_in_element.click()
-    my_channel = driver.find_element_by_xpath('/html/body/div[4]/div[4]/div[1]/div[3]/div[3]/nav/div/div[1]/div/div[1]/div/div/div[8]/a/span')
+    try:
+        notification = driver.find_element_by_xpath('/html/body/div[4]/div[1]/div[1]/button[2]')
+        notification.click()
+    finally:
+        time.sleep(5)
+    my_channel = driver.find_element_by_xpath(
+        '/html/body/div[4]/div[4]/div[1]/div[3]/div[3]/nav/div/div[1]/div/div[1]/div/div/div[8]/a/span')
     my_channel.click()
     writing_in_slack()
 
