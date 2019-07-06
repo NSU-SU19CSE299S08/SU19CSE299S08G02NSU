@@ -1,6 +1,7 @@
 import pyttsx3
 import speech_recognition as sr
 from selenium import webdriver
+import sys
 
 
 def change_voice(a):
@@ -41,18 +42,23 @@ def my_command():
 
 
 def assistant():
-    command = my_command()
-    if 'open Facebook' in command:
+    temp = my_command()
+    command = str(temp).lower()
+    if 'open facebook' in command:
         driver = webdriver.Firefox(executable_path='C:\geckodriver.exe')
         driver.get('https://www.facebook.com/')
-    if 'hello Serena' in command:
+    if 'hello serena' in command:
         change_voice('s')
         serena.say('Welcome Back Sir, How are you.')
         serena.runAndWait()
-    if 'hello Jarvis' in command:
+    if 'hello jarvis' in command:
         change_voice('j')
         serena.say('Welcome back sir, I am jarvis.')
         serena.runAndWait()
+    if 'close app' in command:
+        serena.say('Good Bye Sir, get some sleep')
+        serena.runAndWait()
+        sys.exit()
     else:
         change_voice('s')
         serena.say('You said: {}'.format(command))
