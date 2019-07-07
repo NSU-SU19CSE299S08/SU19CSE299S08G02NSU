@@ -78,8 +78,24 @@ def log_in_mail():
         'div/form/span/section/div/span/div[1]/div[1]/div/div/div/div/div[1]/div/div[1]/input')
     enter_pass.send_keys('Mustavi23.27!@!@')
     enter_pass.send_keys(Keys.ENTER)
+    time.sleep(10)
+    send_mail()
 
 
-log_to_slack()
-log_to_github()
+def send_mail():
+    compose_mail = driver.find_element_by_xpath(
+        '/html/body/div[7]/div[3]/div/div[2]/div[1]/div[1]/div[1]/div/div/div/div[1]/div/div')
+    compose_mail.click()
+    send_to = driver.find_element_by_xpath('//*[@id=":oo"]')
+    send_to.send_keys('smaheen711@gmail.com')
+    subject = driver.find_element_by_xpath('//*[@id=":o6"]')
+    subject.send_keys('news about automation')
+    message = driver.find_element_by_xpath('//*[@id=":p9"]')
+    message.send_keys('You would be happy to know that, this message is sent by an automation script.')
+    send_message = driver.find_element_by_xpath('//*[@id=":nw"]')
+    send_message.click()
+
+
+# log_to_slack()
+# log_to_github()
 log_in_mail()
