@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
+import smtplib
 
 driver = webdriver.Firefox(executable_path='C:\geckodriver.exe')
 
@@ -86,16 +87,24 @@ def send_mail():
     compose_mail = driver.find_element_by_xpath(
         '/html/body/div[7]/div[3]/div/div[2]/div[1]/div[1]/div[1]/div/div/div/div[1]/div/div')
     compose_mail.click()
-    send_to = driver.find_element_by_xpath('//*[@id=":oo"]')
+    send_to = driver.find_element_by_class_name("wA")
     send_to.send_keys('smaheen711@gmail.com')
-    subject = driver.find_element_by_xpath('//*[@id=":o6"]')
+    subject = driver.find_element_by_class_name("aoT")
     subject.send_keys('news about automation')
-    message = driver.find_element_by_xpath('//*[@id=":p9"]')
+    message = driver.find_element_by_class_name('Am Al editable LW-avf')
     message.send_keys('You would be happy to know that, this message is sent by an automation script.')
-    send_message = driver.find_element_by_xpath('//*[@id=":nw"]')
+    send_message = driver.find_element_by_class_name("T-I J-J5-Ji aoO v7 T-I-atl L3")
     send_message.click()
+    # mail = smtplib.SMTP('smtp.gmail.com', 589)
+    # mail.ehlo()
+    # mail.starttls()
+    # mail.login('mustavi.maheen@northsouth.edu', 'Mustavi23.27!@!@')
+    # mail.sendmail('Syed', 'smaheen711@gmail.com',
+    #               'You would be happy to know that, this message is sent by an automation script.')
+    # mail.close()
 
 
 # log_to_slack()
 # log_to_github()
 log_in_mail()
+
