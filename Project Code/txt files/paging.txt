@@ -1,8 +1,8 @@
 In this slide, we are going to have a look in paging and memory mapped file. so, what is paging?
 paging is a memory management scheme by which the operating system retrieves data from secondary storage in same-size blocks called pages.
-We can look into the first image. There we can see how logical address and physical address is being generated using pages,page map table and frames of physical memory.
+We can look into the first image. There we can see how logical address and physical address is being generated using pages, page map table and frames of physical memory.
 Now, tell me, what is memory mapped file?
-A memory-mapped file is a segment of virtual memory that has been assigned a direct byte for byte correlation with some portion of a file or file like resource. This resource is typically a file that is physically present on disk, but can also be a device, shared memory object, or other resource that the operating system can reference through a file descriptor.
+A memory mapped file is a segment of virtual memory that has been assigned a direct byte for byte correlation with some portion of a file or file like resource. This resource is typically a file that is physically present on disk, but can also be a device, shared memory object, or other resource that the operating system can reference through a file descriptor.
 In the second image, we can see how the files on disk are stacked in main memory using virtual memory.
 
 

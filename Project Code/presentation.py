@@ -61,14 +61,7 @@ def assistant():
 
         app = win32com.client.Dispatch("PowerPoint.Application")
         presentation = app.Presentations.Open(FileName=u'E:\\Android-OS-Memory-Management.pptx', ReadOnly=1)
-        # time.sleep(2)
         presentation.SlideShowSettings.Run()
-        keyboard.press(Key.cmd)
-        keyboard.press(Key.alt)
-        keyboard.press('r')
-        keyboard.release('r')
-        keyboard.release(Key.alt)
-        time.sleep(5)
         change_voice(1)
         for line in lines:
             serena.say(line)
@@ -77,6 +70,56 @@ def assistant():
         serena.say('Now I am going to call Jarvis to assist me. Hello Jarvis ,  welcome.')
         change_voice(0)
         serena.say('Thanks Serena.')
+        with open('txt files/introMM.txt', 'r') as inputFile:
+            lines = inputFile.readlines()
+        for line in lines:
+            serena.say(line)
+            serena.runAndWait()
+            change_voice(0 if n % 2 == 0 else 1)
+            n += 1
+        presentation.SlideShowWindow.View.Next()
+        change_voice(1)
+        with open('txt files/paging.txt', 'r') as inputFile:
+            lines = inputFile.readlines()
+        n = 2
+        for line in lines:
+            serena.say(line)
+            serena.runAndWait()
+            change_voice(0 if n % 2 == 0 else 1)
+            n += 1
+        presentation.SlideShowWindow.View.Next()
+        change_voice(0)
+        with open('txt files/garbage.txt', 'r') as inputFile:
+            lines = inputFile.readlines()
+        n = 1
+        for line in lines:
+            serena.say(line)
+            serena.runAndWait()
+            change_voice(0 if n % 2 == 0 else 1)
+            n += 1
+        presentation.SlideShowWindow.View.Next()
+        change_voice(0)
+        with open('txt files/shared_memory.txt', 'r') as inputFile:
+            lines = inputFile.readlines()
+        n = 1
+        for line in lines:
+            serena.say(line)
+            serena.runAndWait()
+            change_voice(0 if n % 2 == 0 else 1)
+            n += 1
+        serena.runAndWait()
+        presentation.SlideShowWindow.View.Next()
+        change_voice(1)
+        with open('txt files/last_page.txt', 'r') as inputFile:
+            lines = inputFile.readlines()
+        n = 1
+        for line in lines:
+            serena.say(line)
+            serena.runAndWait()
+            change_voice(0 if n % 2 == 0 else 1)
+            n += 1
+        change_voice(1)
+
 
     # else:
     #     change_voice('s')
