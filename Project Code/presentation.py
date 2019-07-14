@@ -1,5 +1,5 @@
 import pyttsx3
-# from selenium import webdriver
+from selenium import webdriver
 # import win32com.client
 # import time
 from pynput.keyboard import Key, Controller
@@ -34,3 +34,20 @@ def my_command():
 
     except sr.UnknownValueError or TypeError:
         assistant()
+
+
+def assistant():
+    command = my_command()
+    if 'open facebook' in command:
+        serena.say('Opening Facebook')
+        serena.runAndWait()
+        driver = webdriver.Firefox(executable_path='C:\geckodriver.exe')
+        driver.get('https://www.facebook.com/')
+    if 'hello serena' in command:
+        change_voice(1)
+        serena.say('Welcome Back Sir, How are you.')
+        serena.runAndWait()
+    if 'hello jarvis' in command:
+        change_voice(0)
+        serena.say('Welcome back sir, I am jarvis.')
+        serena.runAndWait()
