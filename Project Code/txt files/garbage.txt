@@ -1,0 +1,12 @@
+In this slide, we are going to talk about Garbage collection, one of the most important aspect of memory management.
+Can you tell me about this in terms i can understand?
+sure. Think about garbage in real life. what is garbage?
+garbage is something that we have used and now we don't need it anymore.
+That is exactly what garbage collection is. In environment like A R T or dalvik virtual machine, they keep track of each memory allocation. when it sees that a piece of memory is no longer being used by the program, it frees it back to the heap, without any intervention from the programmer.
+Is it a automated process?
+Yes, like you and me, this process is also automated.
+what are the goals of G B
+There are two goals, one is find data objects in a program that cannot be accessed in the future and the other is reclaim the resources used by those objects.
+The image here is quite self explanatory.
+Yes, it is. Now let me tell you why managing G B is important. Even though it can be quite fast, it can affect the apps performance. The system has a running set of criteria for determining when to perform garbage collection. When the criteria are satisfied, the system stops executing the process and begins garbage collection. If garbage collection occurs in the middle of an intensive processing loop like an animation or during music playback, it can increase processing time.
+Thanks, lets move on to next slide.

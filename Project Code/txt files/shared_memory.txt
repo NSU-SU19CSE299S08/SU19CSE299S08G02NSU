@@ -1,0 +1,4 @@
+You know how OS is continuously sharing memory in order to fit everything? now we are going to focus on that for android os.
+Each app process is forked from an existing process called Zygote. The Zygote process starts when the system boots and loads common framework code and resources.
+Most static data is m mapped into a process. This technique allows data to be shared between processes, and also allows it to be paged out when needed.
+In many places, Android shares the same dynamic RAM across processes using explicitly allocated shared memory regions either with ashmem or gralloc. look at the image for better understanding of the sharing.

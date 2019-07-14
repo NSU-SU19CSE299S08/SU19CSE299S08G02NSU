@@ -1,0 +1,9 @@
+we are into the very last slide of our presentation.
+In this slide, we are going to talk about some diverse topics, staring with allocate and reclaim app memory.
+So how exactly the allocation and reclamation in app memory works?
+The Dalvik heap is constrained to a single virtual memory range for each app process. This defines the logical heap size, which can grow as it needs to but only up to a limit that the system defines for each app. Android can only shrink the logical heap size when there is unused space at the end of the heap. now the second topic, restrict app memory.
+It sounds like to maintain a functional multitasking environment, Android sets a hard limit on the heap size for each app.
+right. if i might add, The exact heap size limit varies between devices based on how much RAM the device has available overall. 
+and to the last topic, app switching.
+When users switch between apps, Android keeps apps that are not foreground that is, not visible to the user or running a foreground service like music playback in a least recently used L R U cache. As the system runs low on memory, it kills processes in the LRU cache beginning with the process least recently used
+with this, our presentation is being done. Hope you all enjoyed it, Thanks for having patience.

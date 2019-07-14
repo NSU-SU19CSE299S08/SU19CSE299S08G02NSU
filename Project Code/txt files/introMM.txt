@@ -1,0 +1,4 @@
+Memory management is a form of resource management applied to computer memory. The essential requirement of memory management is to provide ways to dynamically allocate portions of memory to programs at their request, and free it for reuse when no longer needed.
+Now we are going to talk about android memory management.
+The Android Runtime ART and Dalvik virtual machine use paging and memory mapping m mapping to manage memory. This means that any memory an app modifies whether by allocating new objects or touching m mapped pages remains resident in RAM and cannot be paged out.
+In the image attached we can see how in user memory space communicate with kernel memory space through allocation parameter to I O N driver.
