@@ -3,7 +3,7 @@ from selenium import webdriver
 import win32com.client
 import time
 from pynput.keyboard import Key, Controller
-import speech_recognition as sr
+# import speech_recognition as sr
 
 keyboard = Controller()
 
@@ -24,10 +24,13 @@ def screen_recording_start():
     keyboard.press('g')
     keyboard.release(Key.cmd)
     keyboard.release('g')
+    time.sleep(3)
+
     keyboard.press(Key.cmd)
     keyboard.press(Key.alt)
     keyboard.press('r')
     screen_recording_stop()
+    time.sleep(3)
 
 
 def screen_recording_stop():
@@ -82,9 +85,8 @@ def assistant():
 
         app = win32com.client.Dispatch("PowerPoint.Application")
         presentation = app.Presentations.Open(FileName=u'E:\\Android-OS-Memory-Management.pptx', ReadOnly=1)
-        screen_recording_start()
         presentation.SlideShowSettings.Run()
-        time.sleep(5)
+        screen_recording_start()
         change_voice(1)
         for line in lines:
             serena.say(line)
