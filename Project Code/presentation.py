@@ -15,6 +15,19 @@ def change_voice(a):
         serena.setProperty('voice', voices[0].id)
 
 
+def screen_recording_start():
+    keyboard.press(Key.cmd)
+    keyboard.press(Key.alt)
+    keyboard.press('r')
+    screen_recording_stop()
+
+
+def screen_recording_stop():
+    keyboard.release('r')
+    keyboard.release(Key.alt)
+    keyboard.release(Key.cmd)
+
+
 serena = pyttsx3.init()
 voices = serena.getProperty('voices')
 serena.setProperty('voice', voices[0].id)
@@ -62,6 +75,8 @@ def assistant():
         app = win32com.client.Dispatch("PowerPoint.Application")
         presentation = app.Presentations.Open(FileName=u'E:\\Android-OS-Memory-Management.pptx', ReadOnly=1)
         presentation.SlideShowSettings.Run()
+        screen_recording_start()
+        time.sleep(5)
         change_voice(1)
         for line in lines:
             serena.say(line)
@@ -119,7 +134,8 @@ def assistant():
             change_voice(0 if n % 2 == 0 else 1)
             n += 1
         change_voice(1)
-
+        screen_recording_start()
+        presentation.Close()
 
     # else:
     #     change_voice('s')
