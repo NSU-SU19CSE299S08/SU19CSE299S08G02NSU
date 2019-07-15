@@ -17,6 +17,14 @@ def change_voice(a):
 
 def screen_recording_start():
     keyboard.press(Key.cmd)
+    keyboard.press('g')
+    keyboard.release(Key.cmd)
+    keyboard.release('g')
+    keyboard.press(Key.cmd)
+    keyboard.press('g')
+    keyboard.release(Key.cmd)
+    keyboard.release('g')
+    keyboard.press(Key.cmd)
     keyboard.press(Key.alt)
     keyboard.press('r')
     screen_recording_stop()
@@ -74,8 +82,8 @@ def assistant():
 
         app = win32com.client.Dispatch("PowerPoint.Application")
         presentation = app.Presentations.Open(FileName=u'E:\\Android-OS-Memory-Management.pptx', ReadOnly=1)
-        presentation.SlideShowSettings.Run()
         screen_recording_start()
+        presentation.SlideShowSettings.Run()
         time.sleep(5)
         change_voice(1)
         for line in lines:
