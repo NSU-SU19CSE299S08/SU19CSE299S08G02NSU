@@ -172,7 +172,7 @@
       </property>
       <widget class="QWidget" name="tab_5">
        <attribute name="title">
-        <string>Single Video</string>
+        <string>YouTube Single Video</string>
        </attribute>
        <widget class="QLineEdit" name="lineEdit_7">
         <property name="geometry">
