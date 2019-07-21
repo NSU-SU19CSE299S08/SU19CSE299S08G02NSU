@@ -17,17 +17,26 @@
    <widget class="QTabWidget" name="tabWidget">
     <property name="geometry">
      <rect>
-      <x>-10</x>
+      <x>0</x>
       <y>0</y>
-      <width>651</width>
+      <width>641</width>
       <height>351</height>
      </rect>
     </property>
     <property name="layoutDirection">
      <enum>Qt::LeftToRight</enum>
     </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
     <property name="currentIndex">
      <number>0</number>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>52</width>
+      <height>56</height>
+     </size>
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
@@ -77,22 +86,31 @@
        <rect>
         <x>460</x>
         <y>120</y>
-        <width>41</width>
+        <width>31</width>
         <height>31</height>
        </rect>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
       </property>
       <property name="text">
        <string/>
       </property>
       <property name="icon">
        <iconset resource="photo.qrc">
-        <normaloff>:/Icon/browse.png</normaloff>:/Icon/browse.png</iconset>
+        <normaloff>:/Icon/search.png</normaloff>:/Icon/search.png</iconset>
       </property>
       <property name="iconSize">
        <size>
         <width>20</width>
         <height>35</height>
        </size>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
       </property>
      </widget>
      <widget class="QProgressBar" name="progressBar">
@@ -105,7 +123,7 @@
        </rect>
       </property>
       <property name="value">
-       <number>24</number>
+       <number>0</number>
       </property>
       <property name="textVisible">
        <bool>false</bool>
@@ -122,7 +140,7 @@
       </property>
       <property name="geometry">
        <rect>
-        <x>-30</x>
+        <x>0</x>
         <y>0</y>
         <width>641</width>
         <height>291</height>
@@ -185,19 +203,6 @@
          <string>Use Browser button to enter save location...</string>
         </property>
        </widget>
-       <widget class="QPushButton" name="pushButton_6">
-        <property name="geometry">
-         <rect>
-          <x>440</x>
-          <y>90</y>
-          <width>75</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Save</string>
-        </property>
-       </widget>
        <widget class="QProgressBar" name="progressBar_3">
         <property name="geometry">
          <rect>
@@ -219,12 +224,28 @@
          <rect>
           <x>440</x>
           <y>30</y>
-          <width>75</width>
+          <width>31</width>
           <height>31</height>
          </rect>
         </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>true</bool>
+        </property>
         <property name="text">
-         <string>Grab</string>
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="photo.qrc">
+          <normaloff>:/Icon/check.png</normaloff>:/Icon/check.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>22</width>
+          <height>41</height>
+         </size>
         </property>
        </widget>
        <widget class="QComboBox" name="comboBox">
@@ -263,6 +284,38 @@
          <string>Start Downloading</string>
         </property>
        </widget>
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="geometry">
+         <rect>
+          <x>440</x>
+          <y>90</y>
+          <width>31</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="photo.qrc">
+          <normaloff>:/Icon/search.png</normaloff>:/Icon/search.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>35</height>
+         </size>
+        </property>
+        <property name="autoDefault">
+         <bool>false</bool>
+        </property>
+       </widget>
       </widget>
       <widget class="QWidget" name="tab_6">
        <attribute name="title">
@@ -282,19 +335,6 @@
         </property>
         <property name="textVisible">
          <bool>false</bool>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="pushButton_13">
-        <property name="geometry">
-         <rect>
-          <x>460</x>
-          <y>70</y>
-          <width>75</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Save</string>
         </property>
        </widget>
        <widget class="QLineEdit" name="lineEdit_14">
@@ -406,6 +446,38 @@
         </property>
         <property name="text">
          <string>The Full Playlist Video:</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_13">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>70</y>
+          <width>31</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="photo.qrc">
+          <normaloff>:/Icon/search.png</normaloff>:/Icon/search.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>35</height>
+         </size>
+        </property>
+        <property name="autoDefault">
+         <bool>false</bool>
         </property>
        </widget>
       </widget>
