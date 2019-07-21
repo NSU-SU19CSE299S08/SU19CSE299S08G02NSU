@@ -42,7 +42,13 @@ class MainApp(QMainWindow, ui):
         download_url = self.lineEdit.text()
         save_location = self.lineEdit_2.text()
 
-        urllib.request.urlretrieve(download_url, save_location, self.handle_progress)
+        if download_url == '' or save_location == '':
+            QMessageBox.warning(self, "Data Error", "Provide a Valid URL or save Location")
+        else:
+            try:
+                urllib.request.urlretrieve(download_url, save_location, self.handle_progress)
+            except Exception:
+                QMessageBox.warning(self, "Data Error", "Provide a Valid URL or save Location")
 
     def save_browse(self):
         pass
