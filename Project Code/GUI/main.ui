@@ -30,7 +30,7 @@
      <bool>true</bool>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <property name="iconSize">
      <size>
@@ -156,7 +156,7 @@
        <enum>QTabWidget::Rounded</enum>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <property name="documentMode">
        <bool>false</bool>
@@ -281,7 +281,7 @@
          </rect>
         </property>
         <property name="text">
-         <string>Start Downloading</string>
+         <string>Start Download</string>
         </property>
        </widget>
        <widget class="QPushButton" name="pushButton_6">
