@@ -123,6 +123,17 @@ class MainApp(QMainWindow, ui):
         else:
             os.mkdir(str(playlist['title']))
             os.chdir(str(playlist['title']))
+        current_video_in_download = 1
+        quality = self.comboBox_2.currentIndex()
+        self.lcdNumber.display(current_video_in_download)
+        for video in playlist_videos:
+            current_video = video['pafy']
+            current_video_stream = current_video.videostreams
+            downnload = current_video_stream[quality].download(callback=self.playlist_progress)
+            current_video_in_download += 1
+
+    def playlist_progress(self, total, received, ratio, rate, time):
+        pass
 
 
 def main():
