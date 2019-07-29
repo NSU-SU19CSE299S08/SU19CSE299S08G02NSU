@@ -136,7 +136,14 @@ class MainApp(QMainWindow, ui):
             current_video_in_download += 1
 
     def playlist_progress(self, total, received, ratio, rate, time):
-        pass
+        read_data = received
+        if total > 0:
+            download_percentage = read_data * 100 / total
+            self.progressBar_4.setValue(download_percentage)
+            remaining_time = round(time / 60, 2)
+            self.label_2.setText(str('{} minutes remaining'.format(remaining_time)))
+            QApplication.processEvents()
+            
 
 
 def main():
