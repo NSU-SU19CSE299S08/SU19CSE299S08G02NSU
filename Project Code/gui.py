@@ -30,6 +30,7 @@ class MainApp(QMainWindow, ui):
         self.pushButton_12.clicked.connect(self.download_video)
         self.pushButton_6.clicked.connect(self.save_browse_yt)
         self.pushButton_14.clicked.connect(self.playlist_downloader)
+        self.pushButton_13.clicked.connect(self.save_browser_playlist)
 
     def handle_progress(self, block_num, block_size, total_size):
         read_data = block_num * block_size
@@ -143,7 +144,10 @@ class MainApp(QMainWindow, ui):
             remaining_time = round(time / 60, 2)
             self.label_2.setText(str('{} minutes remaining'.format(remaining_time)))
             QApplication.processEvents()
-            
+
+    def save_browser_playlist(self):
+        playlist_save_location = QFileDialog.getExistingDirectory(self, 'Select Download Directory')
+        self.lineEdit_14.setText(playlist_save_location)
 
 
 def main():
@@ -155,3 +159,8 @@ def main():
 
 if __name__ == '__main__':
     main()
+# 
+# import pafy
+# a = pafy.new('PZWQPRBorfA')
+# s = a.getbest()
+# filename = s.download()
