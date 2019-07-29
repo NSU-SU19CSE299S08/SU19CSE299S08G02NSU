@@ -29,6 +29,7 @@ class MainApp(QMainWindow, ui):
         self.pushButton_7.clicked.connect(self.get_video_data)
         self.pushButton_12.clicked.connect(self.download_video)
         self.pushButton_6.clicked.connect(self.save_browse_yt)
+        self.pushButton_14.clicked.connect(self.playlist_downloader)
 
     def handle_progress(self, block_num, block_size, total_size):
         read_data = block_num * block_size
@@ -93,12 +94,11 @@ class MainApp(QMainWindow, ui):
             video = pafy.new(video_url)
             video_stream = video.videostreams
             video_quality = self.comboBox.currentIndex()
-            download = video_stream[video_quality].download(filepath=save_location,callback = self.video_progress)
+            download = video_stream[video_quality].download(filepath=save_location, callback=self.video_progress)
             QMessageBox.information(self, "Download Completed", "The Download Completed Successfully")
             QApplication.processEvents()
 
-
-    def video_progress(self, total, received, time):
+    def video_progress(self, total, received, ratio, rate, time):
         read_data = received
         if total > 0:
             download_percentage = read_data * 100 / total
@@ -106,6 +106,16 @@ class MainApp(QMainWindow, ui):
             remaining_time = round(time / 60, 2)
             self.label_8.setText(str('{} minutes remaining'.format(remaining_time)))
             QApplication.processEvents()
+
+    def playlist_downloader(self):
+        playlist_url = self.lineEdit_13.text()
+        save_location = self.lineEdit_14.text()
+        if playlist_url == '' or save_location == '':
+            QMessageBox.warning(self, "Data Error", "Provide a Valid URL or save Location")
+        else:
+            playlist = pafy.get_playlist(playlist_url)
+            playlist_videos = playlist['items']
+            self.lcdNumber_2.display(len(playlist_videos))
 
 
 def main():

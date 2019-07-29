@@ -156,7 +156,7 @@
        <enum>QTabWidget::Rounded</enum>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>1</number>
       </property>
       <property name="documentMode">
        <bool>false</bool>
@@ -316,6 +316,19 @@
          <bool>false</bool>
         </property>
        </widget>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>230</y>
+          <width>171</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
       </widget>
       <widget class="QWidget" name="tab_6">
        <attribute name="title">
@@ -420,8 +433,8 @@
          <rect>
           <x>200</x>
           <y>150</y>
-          <width>41</width>
-          <height>23</height>
+          <width>71</width>
+          <height>31</height>
          </rect>
         </property>
        </widget>
@@ -430,9 +443,12 @@
          <rect>
           <x>430</x>
           <y>150</y>
-          <width>41</width>
-          <height>23</height>
+          <width>71</width>
+          <height>31</height>
          </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:rgb(0, 0, 0);</string>
         </property>
        </widget>
        <widget class="QLabel" name="label_7">
