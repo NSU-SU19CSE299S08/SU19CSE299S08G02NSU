@@ -117,6 +117,13 @@ class MainApp(QMainWindow, ui):
             playlist_videos = playlist['items']
             self.lcdNumber_2.display(len(playlist_videos))
 
+        os.chdir(save_location)
+        if os.path.exists(str(playlist['title'])):
+            os.chdir(str(playlist['title']))
+        else:
+            os.mkdir(str(playlist['title']))
+            os.chdir(str(playlist['title']))
+
 
 def main():
     app = QApplication(sys.argv)
