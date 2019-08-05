@@ -1,11 +1,11 @@
 from socket import *
 import os
 
-host = "127.0.0.1"
+host = "103.25.120.190"
 port = 9999
 s = socket(AF_INET, SOCK_STREAM)
 
-s.bind(host, port)
+s.bind((host, port))
 s.listen(5)
 while True:
     c, addr = s.accept()
