@@ -15,14 +15,20 @@ public class MainActivity extends AppCompatActivity {
 
     public void lowTide(View v)
     {
+        Client myClient = new Client("low tide ");
+        myClient.execute();
 
     }
     public void normalTide(View v)
     {
+        Client myClient2 = new Client("normal tide ");
+        myClient2.execute();
 
     }
     public void faceRecognizer(View v)
     {
+        Client myClient3 = new Client("face recognizer ");
+        myClient3.execute();
 
     }
 }

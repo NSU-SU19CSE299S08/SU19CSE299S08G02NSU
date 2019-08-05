@@ -7,11 +7,12 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="283dp"
-        android:layout_height="82dp"
+        android:id="@+id/textView"
+        android:layout_width="342dp"
+        android:layout_height="86dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Computer Remote"
+        android:text="    Computer Remote"
         android:textSize="35dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,29 +24,51 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Low Tide"
+        android:layout_width="104dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:onClick="lowTide"
-        tools:layout_editor_absoluteX="289dp"
-        tools:layout_editor_absoluteY="364dp" />
+        android:text="Low Tide"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.672" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="102dp"
-        android:layout_height="49dp"
-        android:text="Normal"
+        android:layout_width="115dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:onClick="normalTide"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="364dp" />
+        android:text="Normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.658" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Recognizer"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:onClick="faceRecognizer"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="364dp" />
+        android:text="Recognizer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.66" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
