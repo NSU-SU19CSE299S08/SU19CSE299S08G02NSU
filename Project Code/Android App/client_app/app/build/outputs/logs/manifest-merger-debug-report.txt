@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/e951f9c8cecdeb49312d300b20643295/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/7163913315ec1b56caef1e290f5c2e67/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/da73343bc10ca4e0df045b53e800e920/AndroidManifest.xml:17:1-22:12
@@ -31,25 +31,29 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mustavimaheen/.
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/c143466f423bafd9a7aa9a461dc6dd5e/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/8dacd8fee36d91493c9728da02129c1e/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/790ffa1dd05ce94ca1b70a71f2b02526/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-22:12
 	package
 		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:3:5-37
 		INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-22:12
 		INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-22:12
 		INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:5:5-19:19
+ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:6:5-20:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/7163913315ec1b56caef1e290f5c2e67/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/7163913315ec1b56caef1e290f5c2e67/AndroidManifest.xml:9:5-20
 MERGED from [androidx.core:core:1.0.1] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/844f69ecaff6d6431f87282c5c4e834a/AndroidManifest.xml:22:5-89
@@ -59,31 +63,31 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/must
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.1] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/844f69ecaff6d6431f87282c5c4e834a/AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:9:9-41
 	android:roundIcon
-		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:12:9-40
 activity#com.example.client_app.MainActivity
-ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:12:9-18:20
+ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:13:9-19:20
 	android:name
-		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:12:19-47
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:13:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
-ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:17:27-74
 uses-sdk
 INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml
