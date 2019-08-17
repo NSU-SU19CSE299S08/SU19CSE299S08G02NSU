@@ -1,0 +1,154 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/e951f9c8cecdeb49312d300b20643295/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/7163913315ec1b56caef1e290f5c2e67/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/da73343bc10ca4e0df045b53e800e920/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/8d8045b26e8fe84ab7aed49e4a25260a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/ac73c7eca04e511342b369c495f7e791/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/73552706b1afdc2481cdfb90d2283aec/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/4a7319950a761351c306f43a3fc20bf2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/77988c320c17172bd0a6c0be5c8bbfea/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/55b6bddb3b38f674d997b16943cf7253/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/d2a8803cc161047b3ffde1f940248ff4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/cb78c6e5ecc539af7004c0cba13c5230/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/fb11526884c3d1e0233595385d83d298/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/5bc4b1cd3eb7af7504e656d2b036a77c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/7f04cc22aef6418053d5c644cca3fbd8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/bbf3035ac913b4557bff2ea2707d1b08/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/844f69ecaff6d6431f87282c5c4e834a/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/30ba53dba5d8e4b2c6e5fc519d7a8df6/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/57594c3abb4eb3820f11adb4a54a26dd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/b7cef2ccc547a6cf4838147017d335d3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/123e33a8af31a747d16b0bf0c3801dfb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/530aa5e577e12af137c12e93af079a6e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/a749e1ed15a0a73a410c3bfd653accc6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/8e5527a2252c5777bdcc340f10ad8154/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/44195eef9d98d317411244c269a28748/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/c143466f423bafd9a7aa9a461dc6dd5e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/8dacd8fee36d91493c9728da02129c1e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/790ffa1dd05ce94ca1b70a71f2b02526/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/7163913315ec1b56caef1e290f5c2e67/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/7163913315ec1b56caef1e290f5c2e67/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.0.1] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/844f69ecaff6d6431f87282c5c4e834a/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/844f69ecaff6d6431f87282c5c4e834a/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/30ba53dba5d8e4b2c6e5fc519d7a8df6/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/30ba53dba5d8e4b2c6e5fc519d7a8df6/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/844f69ecaff6d6431f87282c5c4e834a/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.client_app.MainActivity
+ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/e951f9c8cecdeb49312d300b20643295/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/e951f9c8cecdeb49312d300b20643295/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/7163913315ec1b56caef1e290f5c2e67/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/7163913315ec1b56caef1e290f5c2e67/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/da73343bc10ca4e0df045b53e800e920/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/da73343bc10ca4e0df045b53e800e920/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/8d8045b26e8fe84ab7aed49e4a25260a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/8d8045b26e8fe84ab7aed49e4a25260a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/ac73c7eca04e511342b369c495f7e791/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/ac73c7eca04e511342b369c495f7e791/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/73552706b1afdc2481cdfb90d2283aec/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/73552706b1afdc2481cdfb90d2283aec/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/4a7319950a761351c306f43a3fc20bf2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/4a7319950a761351c306f43a3fc20bf2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/77988c320c17172bd0a6c0be5c8bbfea/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/77988c320c17172bd0a6c0be5c8bbfea/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/55b6bddb3b38f674d997b16943cf7253/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/55b6bddb3b38f674d997b16943cf7253/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/d2a8803cc161047b3ffde1f940248ff4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/d2a8803cc161047b3ffde1f940248ff4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/cb78c6e5ecc539af7004c0cba13c5230/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/cb78c6e5ecc539af7004c0cba13c5230/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/fb11526884c3d1e0233595385d83d298/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/fb11526884c3d1e0233595385d83d298/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/5bc4b1cd3eb7af7504e656d2b036a77c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/5bc4b1cd3eb7af7504e656d2b036a77c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/7f04cc22aef6418053d5c644cca3fbd8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/7f04cc22aef6418053d5c644cca3fbd8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/bbf3035ac913b4557bff2ea2707d1b08/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/bbf3035ac913b4557bff2ea2707d1b08/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/844f69ecaff6d6431f87282c5c4e834a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/844f69ecaff6d6431f87282c5c4e834a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/30ba53dba5d8e4b2c6e5fc519d7a8df6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/30ba53dba5d8e4b2c6e5fc519d7a8df6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/57594c3abb4eb3820f11adb4a54a26dd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/57594c3abb4eb3820f11adb4a54a26dd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/b7cef2ccc547a6cf4838147017d335d3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/b7cef2ccc547a6cf4838147017d335d3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/123e33a8af31a747d16b0bf0c3801dfb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/123e33a8af31a747d16b0bf0c3801dfb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/530aa5e577e12af137c12e93af079a6e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/530aa5e577e12af137c12e93af079a6e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/a749e1ed15a0a73a410c3bfd653accc6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/a749e1ed15a0a73a410c3bfd653accc6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/8e5527a2252c5777bdcc340f10ad8154/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/8e5527a2252c5777bdcc340f10ad8154/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/44195eef9d98d317411244c269a28748/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/44195eef9d98d317411244c269a28748/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/c143466f423bafd9a7aa9a461dc6dd5e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/c143466f423bafd9a7aa9a461dc6dd5e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/8dacd8fee36d91493c9728da02129c1e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/8dacd8fee36d91493c9728da02129c1e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/790ffa1dd05ce94ca1b70a71f2b02526/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mustavimaheen/.gradle/caches/transforms-2/files-2.1/790ffa1dd05ce94ca1b70a71f2b02526/AndroidManifest.xml:20:5-44
+INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mustavimaheen/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/Android App/client_app/app/src/main/AndroidManifest.xml
