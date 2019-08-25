@@ -95,7 +95,8 @@ class MainApp(QMainWindow, ui):
             video = pafy.new(video_url)
             video_stream = video.videostreams
             video_quality = self.comboBox.currentIndex()
-            download = video_stream[video_quality].download(filepath=save_location, callback=self.video_progress)
+            best_quality = video.getbest()
+            download = best_quality.download(filepath=save_location, callback=self.video_progress)
             QMessageBox.information(self, "Download Completed", "The Download Completed Successfully")
             QApplication.processEvents()
 
@@ -159,8 +160,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-# 
-# import pafy
-# a = pafy.new('PZWQPRBorfA')
-# s = a.getbest()
-# filename = s.download()
