@@ -25,7 +25,7 @@ def log_to_github():
     username_element.send_keys('mustavi.maheen@northsouth.edu')
     password_element = driver.find_element_by_xpath('//*[@id="password"]')
     password_element.send_keys('Porosh11')
-    log_in_element = driver.find_element_by_xpath('/html/body/div[3]/main/div/form/div[3]/input[4]')
+    log_in_element = driver.find_element_by_xpath('/html/body/div[3]/main/div/form/div[3]/input[7]')
     log_in_element.click()
 
 
@@ -56,14 +56,6 @@ def log_to_slack():
     my_channel = driver.find_element_by_xpath(
         '/html/body/div[4]/div[4]/div[1]/div[3]/div[3]/nav/div/div[1]/div/div[1]/div/div/div[8]/a/span')
     my_channel.click()
-    writing_in_slack()
-
-
-def writing_in_slack():
-    comment = driver.find_element_by_xpath(
-        '/html/body/div[4]/div[4]/div[2]/div/div[1]/div[3]/div[1]/form/div/div[1]/div[1]')
-    comment.send_keys('This comment is written automatically.')
-    comment.send_keys(Keys.ENTER)
 
 
 def log_in_mail():
@@ -75,36 +67,12 @@ def log_in_mail():
     enter_email.send_keys(Keys.ENTER)
     time.sleep(5)
     enter_pass = driver.find_element_by_xpath(
-        '/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[1]/'
-        'div/form/span/section/div/span/div[1]/div[1]/div/div/div/div/div[1]/div/div[1]/input')
+        '/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div[1]/div/div/div/div/div[1]/div/div[1]/input')
     enter_pass.send_keys('Mustavi23.27!@!@')
     enter_pass.send_keys(Keys.ENTER)
     time.sleep(10)
-    send_mail()
-
-
-def send_mail():
-    compose_mail = driver.find_element_by_xpath(
-        '/html/body/div[7]/div[3]/div/div[2]/div[1]/div[1]/div[1]/div/div/div/div[1]/div/div')
-    compose_mail.click()
-    send_to = driver.find_element_by_class_name("wA")
-    send_to.send_keys('smaheen711@gmail.com')
-    subject = driver.find_element_by_class_name("aoT")
-    subject.send_keys('news about automation')
-    message = driver.find_element_by_class_name('Am Al editable LW-avf')
-    message.send_keys('You would be happy to know that, this message is sent by an automation script.')
-    send_message = driver.find_element_by_class_name("T-I J-J5-Ji aoO v7 T-I-atl L3")
-    send_message.click()
-    # mail = smtplib.SMTP('smtp.gmail.com', 589)
-    # mail.ehlo()
-    # mail.starttls()
-    # mail.login('mustavi.maheen@northsouth.edu', 'Mustavi23.27!@!@')
-    # mail.sendmail('Syed', 'smaheen711@gmail.com',
-    #               'You would be happy to know that, this message is sent by an automation script.')
-    # mail.close()
 
 
 # log_to_slack()
 # log_to_github()
 log_in_mail()
-
