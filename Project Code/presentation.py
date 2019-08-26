@@ -117,4 +117,3 @@ def run_presentation():
             assistant()
         except TypeError:
             continue
-run_presentation()

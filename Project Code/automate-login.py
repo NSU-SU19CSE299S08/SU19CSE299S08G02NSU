@@ -2,7 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
-import smtplib
 
 driver = webdriver.Firefox(executable_path='C:\geckodriver.exe')
 
@@ -73,6 +72,4 @@ def log_in_mail():
     time.sleep(10)
 
 
-# log_to_slack()
-# log_to_github()
-log_in_mail()
+
