@@ -45,7 +45,7 @@ def run_presentation():
 
     def assistant():
         n = 2
-        with open('txt files/intro.txt', 'r') as inputFile:
+        with open('all_files/intro.txt', 'r') as inputFile:
             lines = inputFile.readlines()
 
         app = win32com.client.Dispatch("PowerPoint.Application")
@@ -60,7 +60,7 @@ def run_presentation():
         serena.say('Now I am going to call Jarvis to assist me. Hello Jarvis ,  welcome.')
         change_voice(0)
         serena.say('Thanks Serena.')
-        with open('txt files/introMM.txt', 'r') as inputFile:
+        with open('all_files/introMM.txt', 'r') as inputFile:
             lines = inputFile.readlines()
         for line in lines:
             serena.say(line)
@@ -69,7 +69,7 @@ def run_presentation():
             n += 1
         presentation.SlideShowWindow.View.Next()
         change_voice(1)
-        with open('txt files/paging.txt', 'r') as inputFile:
+        with open('all_files/paging.txt', 'r') as inputFile:
             lines = inputFile.readlines()
         n = 2
         for line in lines:
@@ -79,7 +79,7 @@ def run_presentation():
             n += 1
         presentation.SlideShowWindow.View.Next()
         change_voice(0)
-        with open('txt files/garbage.txt', 'r') as inputFile:
+        with open('all_files/garbage.txt', 'r') as inputFile:
             lines = inputFile.readlines()
         n = 1
         for line in lines:
@@ -89,7 +89,7 @@ def run_presentation():
             n += 1
         presentation.SlideShowWindow.View.Next()
         change_voice(0)
-        with open('txt files/shared_memory.txt', 'r') as inputFile:
+        with open('all_files/shared_memory.txt', 'r') as inputFile:
             lines = inputFile.readlines()
         n = 1
         for line in lines:
@@ -100,7 +100,7 @@ def run_presentation():
         serena.runAndWait()
         presentation.SlideShowWindow.View.Next()
         change_voice(1)
-        with open('txt files/last_page.txt', 'r') as inputFile:
+        with open('all_files/last_page.txt', 'r') as inputFile:
             lines = inputFile.readlines()
         n = 1
         for line in lines:

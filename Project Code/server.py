@@ -15,6 +15,60 @@ from selenium.webdriver.common.keys import Keys
 import time
 from socket import *
 
+serena = pyttsx3.init()
+voices = serena.getProperty('voices')
+serena.setProperty('voice', voices[1].id)
+serena.setProperty('rate', 170)
+
+ui, _ = loadUiType('GUI/start.ui')
+
+
+class StartApp(QMainWindow, ui):
+    def __init__(self, parent=None):
+        super(StartApp, self).__init__(parent)
+        QMainWindow.__init__(self)
+        self.setupUi(self)
+        self.inint_ui()
+        self.handle_buttons()
+
+    def inint_ui(self):
+        pass
+
+    def handle_buttons(self):
+        self.pushButton_1.clicked.connect(self.open_github)
+        self.pushButton_3.clicked.connect(self.open_facebook)
+        self.pushButton_4.clicked.connect(self.open_slack)
+        self.pushButton_5.clicked.connect(self.open_gmail)
+
+    def open_github(self):
+        os.startfile(
+            'C:/Users/smahe/OneDrive/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/all_files/github.txt')
+
+    def open_slack(self):
+        os.startfile(
+            'C:/Users/smahe/OneDrive/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/all_files/slack.txt')
+
+    def open_gmail(self):
+        os.startfile(
+            'C:/Users/smahe/OneDrive/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/all_files/gmail.txt')
+
+    def open_facebook(self):
+        os.startfile(
+            'C:/Users/smahe/OneDrive/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/all_files/facebook.txt')
+
+
+def main():
+    app = QApplication(sys.argv)
+    window = StartApp()
+    window.show()
+    serena.say('Welcome Sir, I am Serena. Please Enter your email and password in the page serially. ')
+    serena.runAndWait()
+    app.exec_()
+
+
+if __name__ == '__main__':
+    main()
+
 
 def open_idm():
     ui, _ = loadUiType('GUI/main.ui')
@@ -208,7 +262,7 @@ def run_presentation():
 
     def assistant():
         n = 2
-        with open('txt files/intro.txt', 'r') as inputFile:
+        with open('all_files/intro.txt', 'r') as inputFile:
             lines = inputFile.readlines()
 
         app = win32com.client.Dispatch("PowerPoint.Application")
@@ -223,7 +277,7 @@ def run_presentation():
         serena.say('Now I am going to call Jarvis to assist me. Hello Jarvis ,  welcome.')
         change_voice(0)
         serena.say('Thanks Serena.')
-        with open('txt files/introMM.txt', 'r') as inputFile:
+        with open('all_files/introMM.txt', 'r') as inputFile:
             lines = inputFile.readlines()
         for line in lines:
             serena.say(line)
@@ -232,7 +286,7 @@ def run_presentation():
             n += 1
         presentation.SlideShowWindow.View.Next()
         change_voice(1)
-        with open('txt files/paging.txt', 'r') as inputFile:
+        with open('all_files/paging.txt', 'r') as inputFile:
             lines = inputFile.readlines()
         n = 2
         for line in lines:
@@ -242,7 +296,7 @@ def run_presentation():
             n += 1
         presentation.SlideShowWindow.View.Next()
         change_voice(0)
-        with open('txt files/garbage.txt', 'r') as inputFile:
+        with open('all_files/garbage.txt', 'r') as inputFile:
             lines = inputFile.readlines()
         n = 1
         for line in lines:
@@ -252,7 +306,7 @@ def run_presentation():
             n += 1
         presentation.SlideShowWindow.View.Next()
         change_voice(0)
-        with open('txt files/shared_memory.txt', 'r') as inputFile:
+        with open('all_files/shared_memory.txt', 'r') as inputFile:
             lines = inputFile.readlines()
         n = 1
         for line in lines:
@@ -263,7 +317,7 @@ def run_presentation():
         serena.runAndWait()
         presentation.SlideShowWindow.View.Next()
         change_voice(1)
-        with open('txt files/last_page.txt', 'r') as inputFile:
+        with open('all_files/last_page.txt', 'r') as inputFile:
             lines = inputFile.readlines()
         n = 1
         for line in lines:
@@ -285,31 +339,35 @@ def run_presentation():
 def log_to_facebook():
     driver = webdriver.Firefox(executable_path='C:\geckodriver.exe')
     driver.get('https://www.facebook.com/')
+    with open('all_files/facebook.txt', 'r') as inputFile:
+        lines = inputFile.readlines()
     email_element = driver.find_element(By.XPATH, './/*[@id="email"]')
-    email_element.send_keys('maheen@northsouth.edu')
+    email_element.send_keys(lines[0])
     pass_element = driver.find_element(By.XPATH, './/*[@id="pass"]')
-    pass_element.send_keys('abecoeasd')
+    pass_element.send_keys(lines[1])
     elem = driver.find_element(By.XPATH, '//*[@id="u_0_2"]')
     elem.click()
 
 
 def log_to_github():
     driver = webdriver.Firefox(executable_path='C:\geckodriver.exe')
-
+    with open('all_files/github.txt', 'r') as inputFile:
+        lines = inputFile.readlines()
     driver.get('https://github.com/')
     sign_in_element = driver.find_element_by_xpath('/html/body/div[1]/header/div/div[2]/div[2]/a[1]')
     sign_in_element.click()
     username_element = driver.find_element_by_xpath('//*[@id="login_field"]')
-    username_element.send_keys('mustavi.maheen@northsouth.edu')
+    username_element.send_keys(lines[0])
     password_element = driver.find_element_by_xpath('//*[@id="password"]')
-    password_element.send_keys('Porosh11')
+    password_element.send_keys(lines[1])
     log_in_element = driver.find_element_by_xpath('/html/body/div[3]/main/div/form/div[3]/input[7]')
     log_in_element.click()
 
 
 def log_to_slack():
     driver = webdriver.Firefox(executable_path='C:\geckodriver.exe')
-
+    with open('all_files/facebook.txt', 'r') as inputFile:
+        lines = inputFile.readlines()
     driver.execute_script("window.open('')")
     driver.switch_to.window(driver.window_handles[1])
     driver.get("http://slack.com/")
@@ -317,13 +375,13 @@ def log_to_slack():
     sign_in = driver.find_element_by_xpath('/html/body/header/nav[1]/div/ul/li[6]/a')
     sign_in.click()
     sign_in_to_workspace = driver.find_element_by_xpath('//*[@id="domain"]')
-    sign_in_to_workspace.send_keys('su19cse299nsusas3')
+    sign_in_to_workspace.send_keys(lines[0])
     log_in_element = driver.find_element_by_xpath('//*[@id="submit_team_domain"]')
     log_in_element.click()
     username_element = driver.find_element_by_xpath('//*[@id="email"]')
-    username_element.send_keys('mustavi.maheen@northsouth.edu')
+    username_element.send_keys(lines[1])
     password_element = driver.find_element_by_xpath('//*[@id="password"]')
-    password_element.send_keys('Porosh111')
+    password_element.send_keys(lines[2])
     remember_me = driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/div/form/div[1]/label')
     remember_me.click()
     log_in_element = driver.find_element_by_xpath('//*[@id="signin_btn"]')
@@ -332,17 +390,18 @@ def log_to_slack():
 
 def log_in_mail():
     driver = webdriver.Firefox(executable_path='C:\geckodriver.exe')
-
+    with open('all_files/facebook.txt', 'r') as inputFile:
+        lines = inputFile.readlines()
     driver.execute_script("window.open('')")
     driver.switch_to.window(driver.window_handles[1])
     driver.get("http://mail.google.com/")
     enter_email = driver.find_element_by_xpath('//*[@id="identifierId"]')
-    enter_email.send_keys('mustavi.maheen@northsouth.edu')
+    enter_email.send_keys(lines[0])
     enter_email.send_keys(Keys.ENTER)
     time.sleep(5)
     enter_pass = driver.find_element_by_xpath(
         '/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div[1]/div/div/div/div/div[1]/div/div[1]/input')
-    enter_pass.send_keys('')
+    enter_pass.send_keys(lines[1])
     enter_pass.send_keys(Keys.ENTER)
     time.sleep(10)
 
