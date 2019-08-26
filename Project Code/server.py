@@ -72,7 +72,8 @@ if __name__ == '__main__':
 serena.say('Please have a look on the important functions name, you might need at first')
 serena.runAndWait()
 os.startfile(
-            'C:/Users/smahe/OneDrive/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/all_files/instructions.txt')
+    'C:/Users/smahe/OneDrive/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/all_files/instructions.txt')
+
 
 def open_idm():
     ui, _ = loadUiType('GUI/main.ui')
@@ -432,3 +433,6 @@ while True:
         open_idm()
     if 'give a presentation' in receivedData.lower():
         run_presentation()
+    if "help please" or "instructions please" in receivedData.lower():
+        os.startfile(
+            'C:/Users/smahe/OneDrive/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/all_files/instructions.txt')
