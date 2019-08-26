@@ -342,7 +342,7 @@ def log_in_mail():
     time.sleep(5)
     enter_pass = driver.find_element_by_xpath(
         '/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div[1]/div/div/div/div/div[1]/div/div[1]/input')
-    enter_pass.send_keys('Mustavi23.27!@!@')
+    enter_pass.send_keys('')
     enter_pass.send_keys(Keys.ENTER)
     time.sleep(10)
 
