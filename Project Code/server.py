@@ -69,6 +69,10 @@ def main():
 if __name__ == '__main__':
     main()
 
+serena.say('Please have a look on the important functions name, you might need at first')
+serena.runAndWait()
+os.startfile(
+            'C:/Users/smahe/OneDrive/Documents/GitHub/SU19CSE299S08G02NSU/Project Code/all_files/instructions.txt')
 
 def open_idm():
     ui, _ = loadUiType('GUI/main.ui')

@@ -1,0 +1,6 @@
+To open the download manager, use voice command "open IDM"
+To log in to slack, use voice command "login to slack"
+To log in to github, use voice command "login to github"
+To log in to facebook, use voice command "login to facebook"
+To open the GMail, use voice command "login to mail
+To open the presentation, use voice command "give a presentation"
